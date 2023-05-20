@@ -139,10 +139,10 @@ aside span {
 }
 
 @media (max-width: 768px) {
-  :root{
-    font-size:14px;
+  :root {
+    font-size: 14px;
   }
-  
+
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.8fr;
@@ -158,4 +158,12 @@ aside span {
     overflow-y: visible;
     padding: 22px;
   }
+}
+
+button {
+  font-size: medium;
+  border-image: linear-gradient(#727275, #2c2c31) 1;
+  padding: 7px;
+  border: solid;
+  color: #5f5643;
 }
